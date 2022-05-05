@@ -1,0 +1,17 @@
+function (doc) {
+  if (doc.type == "admin"){
+    emit(doc.lastname, doc.firstname);
+  }
+}
+
+function (doc) {
+  if (doc.type == "hr"){
+    emit(doc.lastname, doc.firstname);
+  }
+}
+
+function (doc) {
+  if (doc.type == "cashier"){
+    emit(doc.lastname, doc.firstname);
+  }
+}

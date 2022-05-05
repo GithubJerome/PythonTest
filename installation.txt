@@ -1,0 +1,29 @@
+pip is a package management system used to install and manage software packages written in Python. 
+
+sudo apt install python-pip
+sudo pip install Flask
+sudo pip install requests
+sudo pip install jsonify
+
+# SET ENVIRONMENT DEVELOPMENT
+export FLASK_APP=test
+export FLASK_ENV=development
+flask run
+
+# SET ENVIRONMENT PRODUCTION
+export FLASK_APP=test
+export FLASK_ENV=production
+flask run
+
+
+# INSTALL COUCH
+# source: https://docs.couchdb.org/en/2.2.0/install/unix.html
+# username:admin
+# password:admin
+echo "deb https://apache.bintray.com/couchdb-deb bionic main" | sudo tee -a /etc/apt/sources.list
+curl -L https://couchdb.apache.org/repo/bintray-pubkey.asc | sudo apt-key add -
+sudo apt-get update && sudo apt-get install couchdb
+
+ON BROWSER
+http://192.168.0.127:5984/_utils
+

@@ -1,0 +1,19 @@
+Lecture outline
+
+Introduction 
+What is CouchDB 2 - is a NoSQL database. CouchDB is document-oriented database (Meaning document base)
+How to install CouchDB 2
+CRUD in CouchDB 2 using Fauxton 
+
+What is Flask/Flasgger - A MicroFramework written in Python for the web.
+What is Swagger - The ability of APIs to describe their own structure.
+
+How to install Flask . recommend (Ubuntu/Debian) 
+Create Database
+Create Design
+
+Create Index
+Create Document
+Read Document
+Update Document
+Delete Document
